@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Odometer</string>
+    <string name="your_distance">0.00 miles</string>
+</resources>
