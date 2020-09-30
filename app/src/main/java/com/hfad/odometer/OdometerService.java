@@ -70,8 +70,6 @@ public class OdometerService extends Service {
         }
         assert locManager != null;
         locManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, listener);
-        locManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, listener);
-        locManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, listener);
     }
 
     public double getMiles() {
